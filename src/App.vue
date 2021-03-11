@@ -28,10 +28,18 @@
       <router-link to="/meta">meta</router-link>
       |
       <router-link to="/transitions">过渡动效</router-link>
+      |
+      <router-link to="/dataFetching">数据获取</router-link>
     </div>
     <router-view />
   </div>
 </template>
+
+<script>
+export default {
+  name: "app"
+};
+</script>
 
 <style>
 #app {
@@ -51,7 +59,7 @@
   color: #2c3e50;
 }
 
-.nav a.router-link-exact-active {
+.nav a.router-link-active {
   color: #42b983;
 }
 </style>

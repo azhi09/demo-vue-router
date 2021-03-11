@@ -160,6 +160,23 @@ const routes = [
     ]
   },
   {
+    path: "/dataFetching",
+    name: "dataFetching",
+    component: () => import("@/views/DataFetching/index.vue"),
+    children: [
+      {
+        path: "",
+        name: "dataFetchingDelay",
+        component: () => import("@/views/DataFetching/Default.vue")
+      },
+      {
+        path: "delay",
+        name: "dataFetchingDelay",
+        component: () => import("@/views/DataFetching/Delay.vue")
+      }
+    ]
+  },
+  {
     path: "/user-*",
     name: "matchPart",
     component: () => import("@/views/MatchPart.vue")
