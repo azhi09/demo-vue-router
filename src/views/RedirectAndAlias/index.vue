@@ -27,9 +27,8 @@
 
 <script>
 export default {
-  name: "RedirectAndAlias",
+  name: "RedirectAndAlias"
 };
 </script>
 
-<style>
-</style>
+<style></style>

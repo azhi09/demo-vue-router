@@ -7,9 +7,8 @@
 
 <script>
 export default {
-  name: "RedirectAndAliasD",
+  name: "RedirectAndAliasD"
 };
 </script>
 
-<style>
-</style>
+<style></style>
